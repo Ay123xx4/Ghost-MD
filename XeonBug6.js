@@ -1276,7 +1276,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 })
                 break
             case 'sc':
-            case 'Repo':
+            case 'script:
             case 'scriptbot':
                 XeonBotInc.sendMessage(m.chat, {
                     text: `Click on the link to get the repo
