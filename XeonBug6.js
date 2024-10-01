@@ -1257,7 +1257,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'runtime':
-                let runtimetext = 'Ghost-MD Have Been Running For ${runtime(process.uptime())}`
+                let runtimetext = 'Bot Have Been Running For ${runtime(process.uptime())}`
                 XeonBotInc.sendMessage(m.chat, {
                     text: runtimetext,
                     contextInfo: {
