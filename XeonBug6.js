@@ -1276,12 +1276,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 })
                 break
             case 'sc':
-            case 'script':
+            case 'Repo':
             case 'scriptbot':
                 XeonBotInc.sendMessage(m.chat, {
-                    text: `If you want the Script Click the image above 🙂`,
+                    text: `Click on the link to get the repo
+		    Https://github.com/ayodejibot/Ghost-MD `,
                     contextInfo: {
-                        externalAdReply: {
+                        externalAdReply
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `SCRIPT OF ${botname} is on d WhatsApp channel `,
@@ -1299,7 +1300,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'donasi':
                 let textnate = `Hello Brother ${pushname}\n\nNo matter how much you donate is very valuable for us`
                 XeonBotInc.sendMessage(m.chat, {
-                    text: 'Palmpay 9171214451 Ayodeji Folasade Rebecca \n\n' + textnate
+                    text: 'Palmpay 9071214451 Ayodeji Folasade Rebecca \n\n' + textnate
                 }, {
                     quoted: m
                 })
